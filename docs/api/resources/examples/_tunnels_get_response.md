@@ -5,18 +5,18 @@
 ```json
 {
 	"endpoint": {
-		"id": "ep_2cSjxbTveHCT9NR4ascMRVlFS5j",
-		"uri": "https://api.ngrok.com/endpoints/ep_2cSjxbTveHCT9NR4ascMRVlFS5j"
+		"id": "ep_2d0OyYqw5fZztnquM2vM6tDyhwA",
+		"uri": "https://api.ngrok.com/endpoints/ep_2d0OyYqw5fZztnquM2vM6tDyhwA"
 	},
 	"forwards_to": "http://localhost:80",
-	"id": "tn_2cSjxbTveHCT9NR4ascMRVlFS5j",
+	"id": "tn_2d0OyYqw5fZztnquM2vM6tDyhwA",
 	"proto": "https",
-	"public_url": "https://49f981359a8c.ngrok.paid",
+	"public_url": "https://67689ad5c811.ngrok.paid",
 	"region": "us",
-	"started_at": "2024-02-16T19:35:20Z",
+	"started_at": "2024-02-28T17:36:23Z",
 	"tunnel_session": {
-		"id": "ts_2cSjxXTL8pqTyhALuuRB5tFYYgv",
-		"uri": "https://api.ngrok.com/tunnel_sessions/ts_2cSjxXTL8pqTyhALuuRB5tFYYgv"
+		"id": "ts_2d0OyTnMfJ75YhoXDoBb2Me2h9k",
+		"uri": "https://api.ngrok.com/tunnel_sessions/ts_2d0OyTnMfJ75YhoXDoBb2Me2h9k"
 	}
 }
 ```

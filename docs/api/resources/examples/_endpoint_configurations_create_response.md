@@ -8,9 +8,9 @@
 	"basic_auth": null,
 	"circuit_breaker": null,
 	"compression": null,
-	"created_at": "2024-02-16T19:35:10Z",
+	"created_at": "2024-02-28T17:36:13Z",
 	"description": "app servers",
-	"id": "ec_2cSjwH5kWLOJ58XyIkeF8o1s3ws",
+	"id": "ec_2d0OxJaQrPPpCJ5IEwiBq2tQwTI",
 	"ip_policy": null,
 	"mutual_tls": null,
 	"oauth": null,
@@ -26,7 +26,7 @@
 	"saml": null,
 	"tls_termination": null,
 	"type": "https",
-	"uri": "https://api.ngrok.com/endpoint_configurations/ec_2cSjwH5kWLOJ58XyIkeF8o1s3ws",
+	"uri": "https://api.ngrok.com/endpoint_configurations/ec_2d0OxJaQrPPpCJ5IEwiBq2tQwTI",
 	"webhook_validation": null
 }
 ```

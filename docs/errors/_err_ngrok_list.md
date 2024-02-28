@@ -3055,6 +3055,14 @@
     </tr>
     <tr>
       <td>
+        <a id="ERR_NGROK_1230" href="/docs/errors/err_ngrok_1230">ERR_NGROK_1230</a>
+      </td>
+      <td class="pre-wrapped">
+        We do not allow sign ups from your location. Your location was determined using your IP address.
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a id="ERR_NGROK_1400" href="/docs/errors/err_ngrok_1400">ERR_NGROK_1400</a>
       </td>
       <td class="pre-wrapped">
@@ -4653,6 +4661,54 @@
       </td>
       <td class="pre-wrapped">
         Policy action type <code>&lt;TYP&gt;</code> is unreachable due to a prior terminating action.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2208" href="/docs/errors/err_ngrok_2208">ERR_NGROK_2208</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to parse configuration for <code>&lt;DIRECTION&gt;</code> <code>&lt;TYPE&gt;</code>: exceeds maximum allowed name length of <code>&lt;MAX&gt;</code>, was <code>&lt;VAL&gt;</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2209" href="/docs/errors/err_ngrok_2209">ERR_NGROK_2209</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to parse configuration for <code>&lt;DIRECTION&gt;</code> <code>&lt;TYPE&gt;</code>: exceeds maximum allowed value length of <code>&lt;MAX&gt;</code>, was <code>&lt;VAL&gt;</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2210" href="/docs/errors/err_ngrok_2210">ERR_NGROK_2210</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to parse configuration for <code>&lt;DIRECTION&gt;</code> <code>&lt;TYPE&gt;</code>: name is invalid <code>&lt;NAME&gt;</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2211" href="/docs/errors/err_ngrok_2211">ERR_NGROK_2211</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to parse configuration for <code>&lt;DIRECTION&gt;</code> <code>&lt;TYPE&gt;</code>: value is invalid <code>&lt;NAME&gt;</code>.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2212" href="/docs/errors/err_ngrok_2212">ERR_NGROK_2212</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to parse configuration for <code>&lt;DIRECTION&gt;</code> <code>&lt;TYPE&gt;</code>: can have at most <code>&lt;MAX&gt;</code> header values, but <code>&lt;VAL&gt;</code> were provided.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a id="ERR_NGROK_2213" href="/docs/errors/err_ngrok_2213">ERR_NGROK_2213</a>
+      </td>
+      <td class="pre-wrapped">
+        Failed to parse configuration for <code>&lt;DIRECTION&gt;</code> add-headers: contained an invalid template: <code>&lt;TEMPLATE&gt;</code>: <code>&lt;ERR&gt;</code>.
       </td>
     </tr>
     <tr>
@@ -8669,7 +8725,7 @@
         <a id="ERR_NGROK_7182" href="/docs/errors/err_ngrok_7182">ERR_NGROK_7182</a>
       </td>
       <td class="pre-wrapped">
-        The JWT Validation sigining key must have a way to be identified such as the 'kid' token claim.
+        The JWT Validation signing key must have a way to be identified such as the 'kid' token claim.
       </td>
     </tr>
     <tr>
@@ -8677,7 +8733,7 @@
         <a id="ERR_NGROK_7183" href="/docs/errors/err_ngrok_7183">ERR_NGROK_7183</a>
       </td>
       <td class="pre-wrapped">
-        The JWT Validation sigining key must have a valid identification mechanism such as the 'kid' token claim.
+        The JWT Validation signing key must have a valid identification mechanism such as the 'kid' token claim.
       </td>
     </tr>
     <tr>
@@ -8685,7 +8741,7 @@
         <a id="ERR_NGROK_7184" href="/docs/errors/err_ngrok_7184">ERR_NGROK_7184</a>
       </td>
       <td class="pre-wrapped">
-        The JWT Validation sigining key must have at least one source.
+        The JWT Validation signing key must have at least one source.
       </td>
     </tr>
     <tr>
@@ -8693,7 +8749,7 @@
         <a id="ERR_NGROK_7185" href="/docs/errors/err_ngrok_7185">ERR_NGROK_7185</a>
       </td>
       <td class="pre-wrapped">
-        The JWT Validation sigining key source has an invalid additional jku: <code>&lt;JKU&gt;</code> is not a valid URL.
+        The JWT Validation signing key source has an invalid additional jku: <code>&lt;JKU&gt;</code> is not a valid URL.
       </td>
     </tr>
     <tr>
@@ -8701,7 +8757,7 @@
         <a id="ERR_NGROK_7186" href="/docs/errors/err_ngrok_7186">ERR_NGROK_7186</a>
       </td>
       <td class="pre-wrapped">
-        The JWT Validation sigining key source has an invalid additional jku: <code>&lt;JKU&gt;</code> did not serve a JWKS.
+        The JWT Validation signing key source has an invalid additional jku: <code>&lt;JKU&gt;</code> did not serve a JWKS.
       </td>
     </tr>
     <tr>

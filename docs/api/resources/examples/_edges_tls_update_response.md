@@ -5,15 +5,15 @@
 ```json
 {
 	"backend": null,
-	"created_at": "2024-02-16T19:35:36Z",
+	"created_at": "2024-02-28T17:36:41Z",
 	"description": "acme tls edge",
 	"hostports": ["example.com:443"],
-	"id": "edgtls_2cSjzX6pa6EUuGOEOtztSMqPK6l",
+	"id": "edgtls_2d0P0jy9KwMyk7CyqSGdG3KpKJQ",
 	"ip_restriction": null,
 	"metadata": "{\"environment\": \"production\"}",
 	"mutual_tls": null,
 	"policy": null,
 	"tls_termination": null,
-	"uri": "https://api.ngrok.com/edges/tls/edgtls_2cSjzX6pa6EUuGOEOtztSMqPK6l"
+	"uri": "https://api.ngrok.com/edges/tls/edgtls_2d0P0jy9KwMyk7CyqSGdG3KpKJQ"
 }
 ```
